@@ -1,0 +1,28 @@
+{
+    "author": "Brandon Webb (webb.c.brandon@gmail.com)",
+    "description": "APEX common/shared library",
+    "engines": {
+        "node": ">=22.0.0"
+    },
+    "engineStrict": true,
+    "keywords": [
+        "Typescript"
+    ],
+    "license": "ISC",
+    "lint-staged": {
+        "!(cdk)*.(t|j)s(x)?": "npm run format"
+    },
+    "name": "apex-lib",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "format": "prettier . --ignore-unknown --write",
+        "format:check": "prettier . --ignore-unknown --check",
+        "lint": "eslint .",
+        "test": "vitest"
+    },
+    "type": "module",
+    "version": "0.0.1"
+}

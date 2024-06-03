@@ -1,0 +1,1 @@
+const catalogueEntry = (line: string) => {};

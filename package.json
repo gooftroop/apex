@@ -1,23 +1,52 @@
 {
-  "name": "apex",
-  "version": "1.0.0",
-  "main": "expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~51.0.8",
-    "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-native": "0.74.1"
-  },
+  "author": "Brandon Webb (webb.c.brandon@mgail.com)",
+  "description": "Warhammer 40K combat and crusade companion",
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@types/react": "~18.2.45",
-    "typescript": "^5.1.3"
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^8.57.0",
+    "@types/eslint__js": "^8.42.3",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "is-ci": "^3.0.1",
+    "lerna": "^8.1.3",
+    "lint-staged": "^15.2.4",
+    "pinst": "^3.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.10.0"
   },
-  "private": true
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "engineStrict": true,
+  "license": "ISC",
+  "lint-staged": {
+    "!(cdk)*.(t|j)s(x)?": "npm run format"
+  },
+  "name": "apex",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "format": "lerna run format",
+    "format:check": "lerna run format:check",
+    "lint": "lerna run lint",
+    "prepare": "husky",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "test": "lerna run test",
+    "typecheck": "lerna run typecheck"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/lib",
+    "packages/mobile",
+    "packages/web"
+  ],
+  "version": "0.0.1"
 }

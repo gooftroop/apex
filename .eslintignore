@@ -1,0 +1,9 @@
+public/**
+**/coverage/**
+**/node_modules/**
+**/.next/**
+newrelic.js
+postcss.config.cjs
+.eslintrc.cjs
+**/.cdk
+**/cdk.out

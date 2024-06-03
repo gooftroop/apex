@@ -1,0 +1,34 @@
+{
+    "targetDefaults": {
+        "start": {
+            "dependsOn": []
+        },
+        "android": {
+            "dependsOn": []
+        },
+        "ios": {
+            "dependsOn": []
+        },
+        "web": {
+            "dependsOn": []
+        },
+        "test": {
+            "dependsOn": [],
+            "cache": true,
+            "outputs": ["{projectRoot}/y"]
+        },
+        "dev": {
+            "dependsOn": []
+        },
+        "build": {
+            "dependsOn": [],
+            "cache": true,
+            "outputs": ["{projectRoot}/y"]
+        },
+        "lint": {
+            "dependsOn": [],
+            "cache": true,
+            "outputs": ["{projectRoot}/n"]
+        }
+    }
+}

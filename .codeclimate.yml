@@ -1,0 +1,17 @@
+version: '2'
+plugins:
+    tslint:
+        enabled: true
+    stylelint:
+        enabled: true
+    similar-code:
+        enabled: true
+    identical-code:
+        enabled: true
+    eslint:
+        enabled: true
+        channel: 'channel/eslint-8'
+    fixme:
+        enabled: true
+    nodesecurity:
+        enabled: true
