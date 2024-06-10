@@ -1,4 +1,4 @@
-import { Characteristic } from './characteristic';
+import { Characteristic } from '../catalogue/characteristic';
 
 export class Profile {
     id: string;
@@ -13,6 +13,8 @@ export class Profile {
 
     private _characteristics: Characteristic[] = [];
 
+    private _description: string | undefined;
+
     constructor(id: string, name: string, hidden: boolean, typeId: string, typeName: string) {
         this.id = id;
         this.name = name;
@@ -25,7 +27,15 @@ export class Profile {
         return this._characteristics;
     }
 
-    set characteristic(characteristic: Characteristic) {
-        this._characteristics.push(characteristic);
+    set characteristic(value: Characteristic) {
+        this._characteristics.push(value);
+    }
+
+    get description(): string | undefined {
+        return this._description;
+    }
+
+    set description(value: string) {
+        this._description = value;
     }
 }

@@ -1,4 +1,12 @@
+import { CategoryEntry } from './categoryEntry';
+import { CostType } from './costType';
+import { EntryLink } from './entryLink';
+import { ForceEntry } from './forceEntry';
+import { Profile } from './profile';
+import { ProfileType } from './profileType';
 import { Publication } from './publication';
+import { Rule } from './rule';
+import { SelectionEntry } from './selectionEntry';
 
 export class GameSystem {
     id: string;
@@ -7,23 +15,23 @@ export class GameSystem {
 
     revision: number;
 
-    _publications: Publication[] = [];
+    private _publications: Publication[] = [];
 
-    _costTypes: CostType[] = [];
+    private _costTypes: CostType[] = [];
 
-    _profileTypes: ProfileType[] = [];
+    private _profileTypes: ProfileType[] = [];
 
-    _categoryEntries: CategoryEntry[] = [];
+    private _categoryEntries: CategoryEntry[] = [];
 
-    _forceEntries: ForceEntry[] = [];
+    private _forceEntries: ForceEntry[] = [];
 
-    _entryLinks: EntryLink[] = [];
+    private _entryLinks: EntryLink[] = [];
 
-    _sharedSelectionEntries: SharedSelectionEntry[] = [];
+    private _sharedSelectionEntries: SelectionEntry[] = [];
 
-    _sharedRules: SharedRule[] = [];
+    private _sharedRules: Rule[] = [];
 
-    _sharedProfiles: SharedProfile[] = [];
+    private _sharedProfiles: Profile[] = [];
 
     constructor(id: string, name: string, revision: number) {
         this.id = id;
@@ -79,27 +87,27 @@ export class GameSystem {
         this._entryLinks.push(value);
     }
 
-    get sharedSelectionEntries(): SharedSelectionEntry[] {
+    get sharedSelectionEntries(): SelectionEntry[] {
         return this._sharedSelectionEntries;
     }
 
-    set sharedSelectionEntry(value: SharedSelectionEntry) {
+    set sharedSelectionEntry(value: SelectionEntry) {
         this._sharedSelectionEntries.push(value);
     }
 
-    get sharedRules(): SharedRule[] {
+    get sharedRules(): Rule[] {
         return this._sharedRules;
     }
 
-    set sharedRule(value: SharedRule) {
+    set sharedRule(value: Rule) {
         this._sharedRules.push(value);
     }
 
-    get sharedProfiles(): SharedProfile[] {
+    get sharedProfiles(): Profile[] {
         return this._sharedProfiles;
     }
 
-    set sharedProfile(value: SharedProfile) {
+    set sharedProfile(value: Profile) {
         this._sharedProfiles.push(value);
     }
 }

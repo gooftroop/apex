@@ -12,19 +12,19 @@ export class Catalogue {
 
     revision: number;
 
-    _categoryEntries: CategoryEntry[] = [];
+    private _categoryEntries: CategoryEntry[] = [];
 
-    _catalogueLinks: CatalogueLink[] = [];
+    private _catalogueLinks: CatalogueLink[] = [];
 
-    _entryLinks: EntryLink[] = [];
+    private _entryLinks: EntryLink[] = [];
 
-    _publications: Publication[] = [];
+    private _publications: Publication[] = [];
 
-    _rules: Rule[] = [];
+    private _rules: Rule[] = [];
 
-    _sharedRules: Rule[] = [];
+    private _sharedRules: Rule[] = [];
 
-    _sharedSelectionEntries: SelectionEntry[] = [];
+    private _sharedSelectionEntries: SelectionEntry[] = [];
 
     constructor(id: string, name: string, revision: number) {
         this.id = id;

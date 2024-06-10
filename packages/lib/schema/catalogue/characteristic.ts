@@ -2,7 +2,7 @@ export class Characteristic {
     name: string;
     typeId: string;
 
-    _value: string = '';
+    private _value: string = '';
 
     constructor(name: string, typeId: string) {
         this.name = name;

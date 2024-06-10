@@ -16,9 +16,9 @@ export class EntryLink {
 
     type: string;
 
-    _constraints: Constraint[] = [];
+    private _constraints: Constraint[] = [];
 
-    _modifiers: Modifier[] = [];
+    private _modifiers: Modifier[] = [];
 
     constructor(
         id: string,

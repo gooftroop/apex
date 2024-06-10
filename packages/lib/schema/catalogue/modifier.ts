@@ -7,7 +7,7 @@ export class Modifier {
 
     field: string;
 
-    _conditions: Condition[] = [];
+    private _conditions: Condition[] = [];
 
     constructor(type: string, value: string, field: string) {
         this.type = type;

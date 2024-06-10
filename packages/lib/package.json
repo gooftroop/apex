@@ -2,7 +2,8 @@
     "author": "Brandon Webb (webb.c.brandon@gmail.com)",
     "description": "APEX common/shared library",
     "engines": {
-        "node": ">=22.0.0"
+        "node": ">=22.0.0",
+        "npm": ">=10.0.0"
     },
     "engineStrict": true,
     "keywords": [
@@ -24,5 +25,8 @@
         "test": "vitest"
     },
     "type": "module",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "devDependencies": {
+        "lint-staged": "^15.2.5"
+    }
 }

@@ -15,11 +15,11 @@ export class SelectionEntryGroup {
 
     defaultSelectionEntryId: string;
 
-    _constraints: Constraint[] = [];
+    private _constraints: Constraint[] = [];
 
-    _entryLinks: EntryLink[] = [];
+    private _entryLinks: EntryLink[] = [];
 
-    _profiles: Profile[] = [];
+    private _profiles: Profile[] = [];
 
     constructor(
         id: string,

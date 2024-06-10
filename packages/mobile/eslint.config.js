@@ -18,8 +18,7 @@ export default tseslint.config(
             ecmaVersion: 'latest',
             sourceType: 'module',
             parserOptions: {
-                project: './tsconfig.json',
-                tsconfigRootDir: import.meta.dirname,
+                project: true,
                 ecmaFeatures: {
                     jsx: true,
                 },

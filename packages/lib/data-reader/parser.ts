@@ -1,1 +1,0 @@
-const catalogueEntry = (line: string) => {};

@@ -11,7 +11,7 @@ export class InfoLink {
 
     type: string;
 
-    _modifiers: Modifier[] = [];
+    private _modifiers: Modifier[] = [];
 
     constructor(id: string, name: string, hidden: boolean, targetId: string, type: string) {
         this.id = id;

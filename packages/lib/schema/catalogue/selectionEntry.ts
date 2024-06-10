@@ -19,21 +19,21 @@ export class SelectionEntry {
 
     type: string;
 
-    _categoryLinks: CategoryLink[] = [];
+    private _categoryLinks: CategoryLink[] = [];
 
-    _constraints: Constraint[] = [];
+    private _constraints: Constraint[] = [];
 
-    _costs: Cost[] = [];
+    private _costs: Cost[] = [];
 
-    _entryLinks: EntryLink[] = [];
+    private _entryLinks: EntryLink[] = [];
 
-    _infoLinks: InfoLink[] = [];
+    private _infoLinks: InfoLink[] = [];
 
-    _profiles: Profile[] = [];
+    private _profiles: Profile[] = [];
 
-    _selectionEntries: SelectionEntry[] = [];
+    private _selectionEntries: SelectionEntry[] = [];
 
-    _selectionEntryGroups: SelectionEntryGroup[] = [];
+    private _selectionEntryGroups: SelectionEntryGroup[] = [];
 
     constructor(id: string, name: string, hidden: boolean, shouldImport: boolean, type: string, collective?: boolean) {
         this.id = id;

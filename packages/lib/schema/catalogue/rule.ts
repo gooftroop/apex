@@ -5,7 +5,7 @@ export class Rule {
 
     hidden: boolean;
 
-    _description: string = '';
+    private _description: string = '';
 
     constructor(id: string, name: string, hidden: boolean) {
         this.id = id;
