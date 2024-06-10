@@ -1,11 +1,14 @@
 import { Condition } from './condition';
+import { Node } from '../types';
 
-export class Modifier {
+export class Modifier implements Node {
     type: string;
 
     value: string;
 
     field: string;
+
+    id: string | undefined;
 
     private _conditions: Condition[] = [];
 

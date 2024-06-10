@@ -1,4 +1,6 @@
-export class Rule {
+import { Node } from '../types';
+
+export class Rule implements Node {
     id: string;
 
     name: string;

@@ -1,4 +1,6 @@
-export class CatalogueLink {
+import { Node } from '../types';
+
+export class CatalogueLink implements Node {
     id: string;
 
     name: string;

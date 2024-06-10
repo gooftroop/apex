@@ -1,4 +1,4 @@
-export class EntryLink {
+export class EntryLink implements Node {
     id: string;
 
     name: string;

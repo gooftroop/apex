@@ -3,8 +3,9 @@ import { Constraint } from './constraint';
 import { Cost } from './cost';
 import { Modifier } from './modifier';
 import { SelectionEntryGroup } from './selectionEntryGroup';
+import { Node } from '../types';
 
-export class SelectionEntry {
+export class SelectionEntry implements Node {
     id: string;
 
     name: string;

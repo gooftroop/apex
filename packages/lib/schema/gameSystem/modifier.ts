@@ -1,7 +1,8 @@
 import { Condition } from './condition';
 import { ConditionGroup } from './conditionGroup';
+import { Node } from '../types';
 
-export class Modifier {
+export class Modifier implements Node {
     type: string;
 
     value: number;
@@ -9,6 +10,8 @@ export class Modifier {
     field: string;
 
     id: string | undefined;
+
+    name: string | undefined;
 
     private _conditionGroups: ConditionGroup[] = [];
 

@@ -1,6 +1,7 @@
 import { CharacteristicType } from './characteristicType';
+import { Node } from '../types';
 
-export class ProfileType {
+export class ProfileType implements Node {
     id: string;
 
     name: string;

@@ -1,4 +1,6 @@
-export class Condition {
+import { Node } from '../types';
+
+export class Condition implements Node {
     type: string;
 
     value: number;
@@ -12,6 +14,8 @@ export class Condition {
     shared: boolean;
 
     includeChildSelections: boolean;
+
+    id: string | undefined;
 
     constructor(
         type: string,

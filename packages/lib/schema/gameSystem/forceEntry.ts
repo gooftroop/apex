@@ -1,6 +1,7 @@
 import { CategoryLink } from './categoryLink';
+import { Node } from '../types';
 
-export class ForceEntry {
+export class ForceEntry implements Node {
     id: string;
 
     name: string;

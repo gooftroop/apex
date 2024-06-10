@@ -1,7 +1,10 @@
 import { Condition } from './condition';
+import { Node } from '../types';
 
-export class ConditionGroup {
+export class ConditionGroup implements Node {
     type: string;
+
+    id: string | undefined;
 
     private _conditions: Condition[] = [];
 

@@ -4,8 +4,9 @@ import { EntryLink } from './entryLink';
 import { Publication } from './publication';
 import { Rule } from './rule';
 import { SelectionEntry } from './selectionEntry';
+import { Node } from '../types';
 
-export class Catalogue {
+export class Catalogue implements Node {
     id: string;
 
     name: string;

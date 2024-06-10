@@ -1,8 +1,9 @@
 import { Constraint } from './constraint';
 import { EntryLink } from './entryLink';
 import { Profile } from './profile';
+import { Node } from '../types';
 
-export class SelectionEntryGroup {
+export class SelectionEntryGroup implements Node {
     id: string;
 
     name: string;

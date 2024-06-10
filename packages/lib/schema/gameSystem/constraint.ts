@@ -1,4 +1,6 @@
-export class Constraint {
+import { Node } from '../types';
+
+export class Constraint implements Node {
     type: string;
 
     value: number;
@@ -9,7 +11,7 @@ export class Constraint {
 
     shared: boolean;
 
-    id: string;
+    id: string | undefined;
 
     includeChildSelections: boolean | undefined;
 

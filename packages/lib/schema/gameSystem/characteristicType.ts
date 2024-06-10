@@ -1,4 +1,6 @@
-export class CharacteristicType {
+import { Node } from '../types';
+
+export class CharacteristicType implements Node {
     id: string;
 
     name: string;

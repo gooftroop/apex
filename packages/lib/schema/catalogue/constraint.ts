@@ -1,4 +1,6 @@
-export class Constraint {
+import { Node } from '../types';
+
+export class Constraint implements Node {
     field: string;
 
     scope: string;

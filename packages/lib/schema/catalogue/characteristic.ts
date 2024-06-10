@@ -1,5 +1,10 @@
-export class Characteristic {
+import { Node } from '../types';
+
+export class Characteristic implements Node {
+    id: string | undefined;
+
     name: string;
+
     typeId: string;
 
     private _value: string = '';

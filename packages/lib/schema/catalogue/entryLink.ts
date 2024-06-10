@@ -1,7 +1,8 @@
 import { Constraint } from './constraint';
 import { Modifier } from './modifier';
+import { Node } from '../types';
 
-export class EntryLink {
+export class EntryLink implements Node {
     id: string;
 
     name: string;

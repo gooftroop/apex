@@ -1,4 +1,4 @@
-export class Publication {
+export class Publication implements Node {
     id: string;
 
     name: string;

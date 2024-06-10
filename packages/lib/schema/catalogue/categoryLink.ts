@@ -1,4 +1,6 @@
-export class CategoryLink {
+import { Node } from '../types';
+
+export class CategoryLink implements Node {
     id: string;
 
     name: string;

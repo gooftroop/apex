@@ -1,4 +1,4 @@
-export class Rule {
+export class Rule implements Node {
     id: string;
 
     name: string;

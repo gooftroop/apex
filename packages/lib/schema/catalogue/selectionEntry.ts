@@ -5,8 +5,9 @@ import { EntryLink } from './entryLink';
 import { InfoLink } from './infoLink';
 import { Profile } from './profile';
 import { SelectionEntryGroup } from './selectionEntryGroup';
+import { Node } from '../types';
 
-export class SelectionEntry {
+export class SelectionEntry implements Node {
     id: string;
 
     name: string;

@@ -1,6 +1,7 @@
 {
     "author": "Brandon Webb (webb.c.brandon@gmail.com)",
     "dependencies": {
+        "fast-xml-parser": "^4.4.0",
         "next": "14.2.3",
         "react": "^18",
         "react-dom": "^18"

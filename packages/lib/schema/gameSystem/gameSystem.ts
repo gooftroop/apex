@@ -7,8 +7,9 @@ import { ProfileType } from './profileType';
 import { Publication } from './publication';
 import { Rule } from './rule';
 import { SelectionEntry } from './selectionEntry';
+import { Node } from '../types';
 
-export class GameSystem {
+export class GameSystem implements Node {
     id: string;
 
     name: string;

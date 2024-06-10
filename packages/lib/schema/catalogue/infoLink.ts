@@ -1,6 +1,7 @@
 import { Modifier } from './modifier';
+import { Node } from '../types';
 
-export class InfoLink {
+export class InfoLink implements Node {
     id: string;
 
     name: string;

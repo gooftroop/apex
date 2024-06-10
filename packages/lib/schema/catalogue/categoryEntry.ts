@@ -1,4 +1,6 @@
-export class CategoryEntry {
+import { Node } from '../types';
+
+export class CategoryEntry implements Node {
     id: string;
 
     name: string;

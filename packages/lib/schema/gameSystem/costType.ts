@@ -1,4 +1,6 @@
-export class CostType {
+import { Node } from '../types';
+
+export class CostType implements Node {
     id: string;
 
     name: string;

@@ -1,7 +1,8 @@
+import { Node } from '../types';
 import { Constraint } from './constraint';
 import { Modifier } from './modifier';
 
-export class CategoryEntry {
+export class CategoryEntry implements Node {
     id: string;
 
     name: string;
