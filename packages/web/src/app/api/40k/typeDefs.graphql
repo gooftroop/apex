@@ -1,0 +1,4 @@
+type Query {
+    catalogue: String
+    gameSystem: String
+}

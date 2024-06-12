@@ -1,8 +1,10 @@
 {
     "author": "Brandon Webb (webb.c.brandon@gmail.com)",
     "dependencies": {
-        "expo": "~51.0.8",
+        "@apollo/client": "^3.10.4",
+        "expo": "~51.0.12",
         "expo-status-bar": "~1.12.1",
+        "graphql": "^16.8.1",
         "react": "18.2.0",
         "react-native": "0.74.1"
     },
@@ -30,6 +32,9 @@
     },
     "main": "expo/AppEntry.js",
     "name": "apex-mobile",
+    "overrides": {
+        "react": "18.2.0"
+    },
     "private": true,
     "scripts": {
         "start": "expo start",
