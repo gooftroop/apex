@@ -58,3 +58,30 @@
 [NX Daemon Server] - 2024-06-12T04:27:16.035Z - [REQUEST]: packages/web/tsconfig.json,packages/web/src/lib/allowCors.ts
 [NX Daemon Server] - 2024-06-12T04:27:16.035Z - [REQUEST]: 
 [NX Daemon Server] - 2024-06-12T04:27:16.061Z - Time taken for 'hash changed files from watcher' 0.35291400000005524ms
+[NX Daemon Server] - 2024-06-12T04:29:10.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-12T04:29:10.191Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-06-12T04:29:10.592Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-12T04:29:10.592Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-06-12T04:29:10.592Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T04:29:10.633Z - Time taken for 'hash changed files from watcher' 0.14322500000707805ms
+[NX Daemon Server] - 2024-06-12T04:29:24.564Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-12T04:29:24.565Z - [WATCHER]: packages/web/package.json was modified
+[NX Daemon Server] - 2024-06-12T04:29:25.366Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-12T04:29:25.367Z - [REQUEST]: packages/web/package.json
+[NX Daemon Server] - 2024-06-12T04:29:25.367Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T04:29:25.409Z - Time taken for 'hash changed files from watcher' 0.13627000000269618ms
+[NX Daemon Server] - 2024-06-12T04:29:38.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-12T04:29:38.209Z - [WATCHER]: packages/mobile/package.json was modified
+[NX Daemon Server] - 2024-06-12T04:29:39.812Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-12T04:29:39.812Z - [REQUEST]: packages/mobile/package.json
+[NX Daemon Server] - 2024-06-12T04:29:39.812Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T04:29:39.860Z - Time taken for 'hash changed files from watcher' 0.2308550000016112ms
+[NX Daemon Server] - 2024-06-12T04:29:48.434Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-12T04:29:48.435Z - [WATCHER]: packages/lib/package.json was modified
+[NX Daemon Server] - 2024-06-12T04:29:51.639Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-12T04:29:51.639Z - [REQUEST]: packages/lib/package.json
+[NX Daemon Server] - 2024-06-12T04:29:51.639Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T04:29:51.679Z - Time taken for 'hash changed files from watcher' 0.23833100000047125ms
+[NX Daemon Server] - 2024-06-12T07:29:47.942Z - [WATCHER]: Stopping the watcher for /home/brandon/Development/apex (sources)
+[NX Daemon Server] - 2024-06-12T07:29:47.943Z - [WATCHER]: Stopping the watcher for /home/brandon/Development/apex (outputs)
+[NX Daemon Server] - 2024-06-12T07:29:47.943Z - Server stopped because: "10800000ms of inactivity"

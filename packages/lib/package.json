@@ -11,7 +11,7 @@
     ],
     "license": "ISC",
     "lint-staged": {
-        "!(cdk)*.(t|j)s(x)?": "npm run format"
+        "**/*.(t|j)s(x)?": "npm run format"
     },
     "name": "apex-lib",
     "private": true,

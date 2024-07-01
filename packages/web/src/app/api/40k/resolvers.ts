@@ -1,6 +1,8 @@
 export const resolvers = {
     Query: {
-        catalogue: () => 'catalogue',
+        catalogue: () => {
+            return 'catalogue';
+        },
         gameSystem: () => 'gameSystem',
     },
 };

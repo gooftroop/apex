@@ -17260,8 +17260,65 @@
     }
   },
   "dependencies": {
-    "apex-mobile": [],
-    "apex-lib": [],
+    "apex-mobile": [
+      {
+        "source": "apex-mobile",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:@types/react@18.2.79",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:lint-staged",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:@apollo/client",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:expo",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:expo-status-bar",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:graphql",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:react@18.2.0",
+        "type": "static"
+      },
+      {
+        "source": "apex-mobile",
+        "target": "npm:react-native@0.74.1",
+        "type": "static"
+      }
+    ],
+    "apex-lib": [
+      {
+        "source": "apex-lib",
+        "target": "npm:lint-staged",
+        "type": "static"
+      }
+    ],
     "apex-web": [
       {
         "source": "apex-web",

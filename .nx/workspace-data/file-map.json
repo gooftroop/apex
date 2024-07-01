@@ -22,44 +22,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "lerna.json",
+        "hash": "2294173891343362835"
+      },
+      {
         "file": ".commitlintrc.cjs",
         "hash": "1797922694529005585"
       },
       {
-        "file": "package.json",
-        "hash": "12577388201866810978"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "6444413769201643404"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "16673023498678267655"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "1894844296081778774"
-      },
-      {
-        "file": "temp.xml",
-        "hash": "18081577075459084690"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "15508171415641098169"
+        "file": "scripts/qa.ts",
+        "hash": "8796352511536185678"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "8839133558502046598"
       },
       {
-        "file": ".husky/commit-msg",
-        "hash": "17193081696979627749"
+        "file": ".prettierrc",
+        "hash": "15508171415641098169"
       },
       {
-        "file": ".git-blame-ignore-revs",
-        "hash": "1044245084636214965"
+        "file": ".node-version",
+        "hash": "541564060168964990"
       },
       {
         "file": "scripts/installHuskyIfGitInitialized.sh",
@@ -70,28 +54,24 @@
         "hash": "11233378955530389308"
       },
       {
-        "file": "scripts/qa.ts",
-        "hash": "8796352511536185678"
+        "file": "temp.xml",
+        "hash": "18081577075459084690"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "401314460447182291"
-      },
-      {
-        "file": ".codeclimate.yml",
-        "hash": "12807161428967445407"
-      },
-      {
-        "file": ".node-version",
-        "hash": "541564060168964990"
-      },
-      {
-        "file": "CODEOWNERS",
-        "hash": "10284279466098467001"
+        "file": ".git-blame-ignore-revs",
+        "hash": "1044245084636214965"
       },
       {
         "file": ".browserslistrc",
         "hash": "3465403586597538748"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "1894844296081778774"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "401314460447182291"
       },
       {
         "file": ".gitignore",
@@ -102,28 +82,48 @@
         "hash": "11734450086610329516"
       },
       {
-        "file": "CONTRIBUTING.md",
-        "hash": "7647576473891270345"
+        "file": ".codeclimate.yml",
+        "hash": "12807161428967445407"
       },
       {
-        "file": "lerna.json",
-        "hash": "2294173891343362835"
+        "file": "eslint.config.js",
+        "hash": "17779389787746182263"
+      },
+      {
+        "file": "package.json",
+        "hash": "5456441149902665912"
       },
       {
         "file": "README.md",
         "hash": "3244421341483603138"
       },
       {
-        "file": "nx.json",
-        "hash": "4724024579561530552"
-      },
-      {
         "file": "package-lock.json",
         "hash": "1696543228253728996"
       },
       {
-        "file": "eslint.config.js",
-        "hash": "17779389787746182263"
+        "file": ".husky/commit-msg",
+        "hash": "17193081696979627749"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "6444413769201643404"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16673023498678267655"
+      },
+      {
+        "file": "CODEOWNERS",
+        "hash": "10284279466098467001"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "7647576473891270345"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4724024579561530552"
       }
     ],
     "projectFileMap": {
@@ -162,7 +162,7 @@
         },
         {
           "file": "packages/web/package.json",
-          "hash": "9647757968423673578",
+          "hash": "13843443692740305822",
           "deps": [
             "npm:@types/node",
             "npm:@types/react",
@@ -273,7 +273,10 @@
         },
         {
           "file": "packages/lib/package.json",
-          "hash": "17084381638775790543"
+          "hash": "22782942734813529",
+          "deps": [
+            "npm:lint-staged"
+          ]
         },
         {
           "file": "packages/lib/schema/40k/catalogue/catalogue.ts",
@@ -467,7 +470,19 @@
         },
         {
           "file": "packages/mobile/package.json",
-          "hash": "14055100127630278362"
+          "hash": "7773484768285344850",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@types/react@18.2.79",
+            "npm:lint-staged",
+            "npm:typescript",
+            "npm:@apollo/client",
+            "npm:expo",
+            "npm:expo-status-bar",
+            "npm:graphql",
+            "npm:react@18.2.0",
+            "npm:react-native@0.74.1"
+          ]
         },
         {
           "file": "packages/mobile/tsconfig.json",
