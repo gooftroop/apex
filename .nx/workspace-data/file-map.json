@@ -22,48 +22,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "lerna.json",
-        "hash": "2294173891343362835"
+        "file": "package-lock.json",
+        "hash": "16821274773991900955"
       },
       {
-        "file": ".commitlintrc.cjs",
-        "hash": "1797922694529005585"
-      },
-      {
-        "file": "scripts/qa.ts",
-        "hash": "8796352511536185678"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "8839133558502046598"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "15508171415641098169"
-      },
-      {
-        "file": ".node-version",
-        "hash": "541564060168964990"
-      },
-      {
-        "file": "scripts/installHuskyIfGitInitialized.sh",
-        "hash": "14529571413340822407"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "11233378955530389308"
-      },
-      {
-        "file": "temp.xml",
-        "hash": "18081577075459084690"
-      },
-      {
-        "file": ".git-blame-ignore-revs",
-        "hash": "1044245084636214965"
+        "file": ".husky/commit-msg",
+        "hash": "17193081696979627749"
       },
       {
         "file": ".browserslistrc",
         "hash": "3465403586597538748"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "6444413769201643404"
+      },
+      {
+        "file": ".git-blame-ignore-revs",
+        "hash": "1044245084636214965"
       },
       {
         "file": ".husky/pre-commit",
@@ -74,18 +50,6 @@
         "hash": "401314460447182291"
       },
       {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": ".nvmrc",
-        "hash": "11734450086610329516"
-      },
-      {
-        "file": ".codeclimate.yml",
-        "hash": "12807161428967445407"
-      },
-      {
         "file": "eslint.config.js",
         "hash": "17779389787746182263"
       },
@@ -94,339 +58,79 @@
         "hash": "5456441149902665912"
       },
       {
-        "file": "README.md",
-        "hash": "3244421341483603138"
+        "file": "scripts/installHuskyIfGitInitialized.sh",
+        "hash": "14529571413340822407"
       },
       {
-        "file": "package-lock.json",
-        "hash": "1696543228253728996"
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
       },
       {
-        "file": ".husky/commit-msg",
-        "hash": "17193081696979627749"
+        "file": ".vscode/launch.json",
+        "hash": "8137603866092315387"
       },
       {
-        "file": ".eslintignore",
-        "hash": "6444413769201643404"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "16673023498678267655"
+        "file": ".nvmrc",
+        "hash": "11734450086610329516"
       },
       {
         "file": "CODEOWNERS",
         "hash": "10284279466098467001"
       },
       {
-        "file": "CONTRIBUTING.md",
-        "hash": "7647576473891270345"
+        "file": "temp.xml",
+        "hash": "18081577075459084690"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "15508171415641098169"
       },
       {
         "file": "nx.json",
         "hash": "4724024579561530552"
+      },
+      {
+        "file": "README.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".codeclimate.yml",
+        "hash": "12807161428967445407"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16673023498678267655"
+      },
+      {
+        "file": "scripts/qa.ts",
+        "hash": "8796352511536185678"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11233378955530389308"
+      },
+      {
+        "file": ".node-version",
+        "hash": "541564060168964990"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "7647576473891270345"
+      },
+      {
+        "file": ".commitlintrc.cjs",
+        "hash": "1797922694529005585"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "2294173891343362835"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "8839133558502046598"
       }
     ],
     "projectFileMap": {
-      "apex-web": [
-        {
-          "file": "packages/web/.gitignore",
-          "hash": "15751075988610075934"
-        },
-        {
-          "file": "packages/web/.lighthouserc.cjs",
-          "hash": "11563722676805747085"
-        },
-        {
-          "file": "packages/web/.releaserc.cjs",
-          "hash": "14854011539275890203"
-        },
-        {
-          "file": "packages/web/@types/fast-xml-parser.d.ts",
-          "hash": "10477023759568562995"
-        },
-        {
-          "file": "packages/web/@types/graphql.d.ts",
-          "hash": "7446358156832645422"
-        },
-        {
-          "file": "packages/web/README.md",
-          "hash": "15729665757019354503"
-        },
-        {
-          "file": "packages/web/eslint.config.js",
-          "hash": "16833230859285743785"
-        },
-        {
-          "file": "packages/web/next.config.mjs",
-          "hash": "7527012713385480733"
-        },
-        {
-          "file": "packages/web/package.json",
-          "hash": "13843443692740305822",
-          "deps": [
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:@vitejs/plugin-react",
-            "npm:eslint-config-neon",
-            "npm:eslint-config-next",
-            "npm:globals@15.4.0",
-            "npm:lint-staged",
-            "npm:postcss",
-            "npm:tailwindcss",
-            "npm:typescript",
-            "npm:vite-tsconfig-paths",
-            "npm:vitest",
-            "npm:@apollo/client",
-            "npm:@apollo/server",
-            "npm:@apollo/server-plugin-response-cache",
-            "npm:@as-integrations/next",
-            "npm:fast-xml-parser",
-            "npm:graphql",
-            "npm:graphql-tag",
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "packages/web/postcss.config.mjs",
-          "hash": "1405809271551953835"
-        },
-        {
-          "file": "packages/web/public/next.svg",
-          "hash": "8300767200008744458"
-        },
-        {
-          "file": "packages/web/public/vercel.svg",
-          "hash": "2376673330454856631"
-        },
-        {
-          "file": "packages/web/src/app/api/40k/resolvers.ts",
-          "hash": "18171107225579090443"
-        },
-        {
-          "file": "packages/web/src/app/api/40k/route.ts",
-          "hash": "2459256725372215748"
-        },
-        {
-          "file": "packages/web/src/app/api/40k/typeDefs.graphql",
-          "hash": "2437082658787410154"
-        },
-        {
-          "file": "packages/web/src/app/api/health/route.ts",
-          "hash": "1832414165634761797"
-        },
-        {
-          "file": "packages/web/src/app/favicon.ico",
-          "hash": "9157999678830540297"
-        },
-        {
-          "file": "packages/web/src/app/globals.css",
-          "hash": "6887956967786266789"
-        },
-        {
-          "file": "packages/web/src/app/layout.tsx",
-          "hash": "7399593714902412038"
-        },
-        {
-          "file": "packages/web/src/app/page.tsx",
-          "hash": "6160924717340001782"
-        },
-        {
-          "file": "packages/web/src/lib/allowCors.ts",
-          "hash": "2858096730348006839"
-        },
-        {
-          "file": "packages/web/src/lib/schema-xml-parser/index.ts",
-          "hash": "10839962574018184317"
-        },
-        {
-          "file": "packages/web/src/lib/schema-xml-parser/schemaBuilder.ts",
-          "hash": "13853360315583173914"
-        },
-        {
-          "file": "packages/web/stylelint.config.js",
-          "hash": "3962145052068922211"
-        },
-        {
-          "file": "packages/web/tailwind.config.ts",
-          "hash": "17769577301632977768"
-        },
-        {
-          "file": "packages/web/tsconfig.json",
-          "hash": "15261676286523075666"
-        },
-        {
-          "file": "packages/web/vitest.config.ts",
-          "hash": "4586412414973415069"
-        }
-      ],
-      "apex-lib": [
-        {
-          "file": "packages/lib/README.md",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "packages/lib/eslint.config.js",
-          "hash": "1398102576351705057"
-        },
-        {
-          "file": "packages/lib/package.json",
-          "hash": "22782942734813529",
-          "deps": [
-            "npm:lint-staged"
-          ]
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/catalogue.ts",
-          "hash": "10759105004631434616"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/catalogueLink.ts",
-          "hash": "6399985788962105710"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/categoryEntry.ts",
-          "hash": "16001608707010025951"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/categoryLink.ts",
-          "hash": "4226100248118394665"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/characteristic.ts",
-          "hash": "8554206459470402783"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/condition.ts",
-          "hash": "10615704088591240328"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/constraint.ts",
-          "hash": "8500690319250378958"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/cost.ts",
-          "hash": "3652755062652514541"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/entryLink.ts",
-          "hash": "14976488793380758235"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/infoLink.ts",
-          "hash": "1321781004942732000"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/modifier.ts",
-          "hash": "3238013749802161241"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/profile.ts",
-          "hash": "6016048604757302849"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/publication.ts",
-          "hash": "7033791913827879918"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/rule.ts",
-          "hash": "2819425925089615453"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/selectionEntry.ts",
-          "hash": "11101013129298157727"
-        },
-        {
-          "file": "packages/lib/schema/40k/catalogue/selectionEntryGroup.ts",
-          "hash": "15908331666648463643"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/categoryEntry.ts",
-          "hash": "973380715382805875"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/categoryLink.ts",
-          "hash": "18333885294715843126"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/characteristicType.ts",
-          "hash": "12221937483304875858"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/condition.ts",
-          "hash": "7282252208485592080"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/conditionGroup.ts",
-          "hash": "14414665809347808468"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/constraint.ts",
-          "hash": "8077394706426696649"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/cost.ts",
-          "hash": "3652755062652514541"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/costType.ts",
-          "hash": "3563925551265879204"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/entryLink.ts",
-          "hash": "16041206061314922640"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/forceEntry.ts",
-          "hash": "2987348615759352390"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/gameSystem.ts",
-          "hash": "16598473601005790797"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/modifier.ts",
-          "hash": "602207555997892111"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/profile.ts",
-          "hash": "1243632466669949455"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/profileType.ts",
-          "hash": "12387309269556462393"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/publication.ts",
-          "hash": "17126874376366008120"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/rule.ts",
-          "hash": "8687915540732620325"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/selectionEntry.ts",
-          "hash": "6537786300623113086"
-        },
-        {
-          "file": "packages/lib/schema/40k/gameSystem/selectionEntryGroup.ts",
-          "hash": "10668385480861922819"
-        },
-        {
-          "file": "packages/lib/schema/40k/index.ts",
-          "hash": "13388193601443857414"
-        },
-        {
-          "file": "packages/lib/schema/40k/types.ts",
-          "hash": "18371537156689156524"
-        },
-        {
-          "file": "packages/lib/tsconfig.json",
-          "hash": "3269584991153952991"
-        }
-      ],
       "apex-mobile": [
         {
           "file": "packages/mobile/.gitignore",
@@ -487,6 +191,332 @@
         {
           "file": "packages/mobile/tsconfig.json",
           "hash": "223771447329686109"
+        }
+      ],
+      "apex-lib": [
+        {
+          "file": "packages/lib/README.md",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/lib/eslint.config.js",
+          "hash": "1398102576351705057"
+        },
+        {
+          "file": "packages/lib/package.json",
+          "hash": "22782942734813529",
+          "deps": [
+            "npm:lint-staged"
+          ]
+        },
+        {
+          "file": "packages/lib/tsconfig.json",
+          "hash": "3269584991153952991"
+        }
+      ],
+      "apex-web": [
+        {
+          "file": "packages/web/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "packages/web/.lighthouserc.cjs",
+          "hash": "11563722676805747085"
+        },
+        {
+          "file": "packages/web/.releaserc.cjs",
+          "hash": "14854011539275890203"
+        },
+        {
+          "file": "packages/web/@types/fast-xml-parser.d.ts",
+          "hash": "10477023759568562995"
+        },
+        {
+          "file": "packages/web/@types/graphql.d.ts",
+          "hash": "7446358156832645422"
+        },
+        {
+          "file": "packages/web/README.md",
+          "hash": "15729665757019354503"
+        },
+        {
+          "file": "packages/web/eslint.config.js",
+          "hash": "16833230859285743785"
+        },
+        {
+          "file": "packages/web/next.config.mjs",
+          "hash": "7527012713385480733"
+        },
+        {
+          "file": "packages/web/package.json",
+          "hash": "8647096183017033618",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint-config-neon",
+            "npm:eslint-config-next",
+            "npm:globals@15.4.0",
+            "npm:lint-staged",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:vite-tsconfig-paths",
+            "npm:vitest",
+            "npm:@apollo/client",
+            "npm:@apollo/experimental-nextjs-app-support",
+            "npm:@apollo/server",
+            "npm:@apollo/server-plugin-response-cache",
+            "npm:@as-integrations/next",
+            "npm:@octokit/graphql@8.1.1",
+            "npm:fast-xml-parser",
+            "npm:graphql",
+            "npm:graphql-tag",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "packages/web/postcss.config.mjs",
+          "hash": "1405809271551953835"
+        },
+        {
+          "file": "packages/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "packages/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "packages/web/src/app/api/40k/resolvers.ts",
+          "hash": "15591351233530126448"
+        },
+        {
+          "file": "packages/web/src/app/api/40k/route.ts",
+          "hash": "3857040376210201597"
+        },
+        {
+          "file": "packages/web/src/app/api/40k/typeDefs.graphql",
+          "hash": "2437082658787410154"
+        },
+        {
+          "file": "packages/web/src/app/api/health/route.ts",
+          "hash": "1832414165634761797"
+        },
+        {
+          "file": "packages/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "packages/web/src/app/globals.css",
+          "hash": "6887956967786266789"
+        },
+        {
+          "file": "packages/web/src/app/layout.tsx",
+          "hash": "7399593714902412038"
+        },
+        {
+          "file": "packages/web/src/app/page.tsx",
+          "hash": "6160924717340001782"
+        },
+        {
+          "file": "packages/web/src/lib/allowCors.ts",
+          "hash": "2858096730348006839"
+        },
+        {
+          "file": "packages/web/src/lib/graphql/apolloClient.ts",
+          "hash": "13722116342258716970"
+        },
+        {
+          "file": "packages/web/src/lib/graphql/datasource/github.ts",
+          "hash": "3605388689208840495"
+        },
+        {
+          "file": "packages/web/src/lib/graphql/rscApolloClient.ts",
+          "hash": "757401969366746443"
+        },
+        {
+          "file": "packages/web/src/lib/graphql/types.ts",
+          "hash": "10302931701583968407"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/catalogue.ts",
+          "hash": "10759105004631434616"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/catalogueLink.ts",
+          "hash": "6399985788962105710"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/categoryEntry.ts",
+          "hash": "16001608707010025951"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/categoryLink.ts",
+          "hash": "4226100248118394665"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/characteristic.ts",
+          "hash": "8554206459470402783"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/condition.ts",
+          "hash": "10615704088591240328"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/constraint.ts",
+          "hash": "8500690319250378958"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/cost.ts",
+          "hash": "3652755062652514541"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/entryLink.ts",
+          "hash": "14976488793380758235"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/infoLink.ts",
+          "hash": "1321781004942732000"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/modifier.ts",
+          "hash": "3238013749802161241"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/profile.ts",
+          "hash": "6016048604757302849"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/publication.ts",
+          "hash": "7033791913827879918"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/rule.ts",
+          "hash": "2819425925089615453"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/selectionEntry.ts",
+          "hash": "11101013129298157727"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/catalogue/selectionEntryGroup.ts",
+          "hash": "15908331666648463643"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/categoryEntry.ts",
+          "hash": "973380715382805875"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/categoryLink.ts",
+          "hash": "18333885294715843126"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/characteristicType.ts",
+          "hash": "12221937483304875858"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/condition.ts",
+          "hash": "7282252208485592080"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/conditionGroup.ts",
+          "hash": "14414665809347808468"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/constraint.ts",
+          "hash": "8077394706426696649"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/cost.ts",
+          "hash": "3652755062652514541"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/costType.ts",
+          "hash": "3563925551265879204"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/entryLink.ts",
+          "hash": "16041206061314922640"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/forceEntry.ts",
+          "hash": "2987348615759352390"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/gameSystem.ts",
+          "hash": "16598473601005790797"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/modifier.ts",
+          "hash": "602207555997892111"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/profile.ts",
+          "hash": "1243632466669949455"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/profileType.ts",
+          "hash": "12387309269556462393"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/publication.ts",
+          "hash": "17126874376366008120"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/rule.ts",
+          "hash": "8687915540732620325"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/selectionEntry.ts",
+          "hash": "6537786300623113086"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/gameSystem/selectionEntryGroup.ts",
+          "hash": "10668385480861922819"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/index.ts",
+          "hash": "13388193601443857414"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/parser/index.ts",
+          "hash": "10839962574018184317"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/parser/schemaBuilder.ts",
+          "hash": "13853360315583173914"
+        },
+        {
+          "file": "packages/web/src/lib/schema/40k/types.ts",
+          "hash": "18371537156689156524"
+        },
+        {
+          "file": "packages/web/stylelint.config.js",
+          "hash": "3962145052068922211"
+        },
+        {
+          "file": "packages/web/tailwind.config.ts",
+          "hash": "17769577301632977768"
+        },
+        {
+          "file": "packages/web/tsconfig.json",
+          "hash": "9261928922930219357"
+        },
+        {
+          "file": "packages/web/vitest.config.ts",
+          "hash": "4586412414973415069"
+        },
+        {
+          "file": "packages/web/.env.local.template",
+          "hash": "18196020122567716878"
+        },
+        {
+          "file": "packages/web/.env.local ",
+          "hash": "10679412891452450906"
         }
       ]
     }

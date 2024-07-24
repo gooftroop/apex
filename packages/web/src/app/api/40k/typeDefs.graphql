@@ -1,4 +1,5 @@
 type Query {
-    catalogue: String
-    gameSystem: String
+    catalogue: [String]!
+    codex(faction: String): String!
+    gameSystem: String!
 }

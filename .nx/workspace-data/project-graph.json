@@ -482,6 +482,24 @@
         "hash": "sha512-51gk0xOwN6Ls1EbTG5svFva1kdm2APHYTzmFhaAdvUQoJFDxfc0UwQgDxGptzH84vkPlo1qunY1FuboyF9LI3Q=="
       }
     },
+    "npm:@apollo/client-react-streaming": {
+      "type": "npm",
+      "name": "npm:@apollo/client-react-streaming",
+      "data": {
+        "version": "0.11.2",
+        "packageName": "@apollo/client-react-streaming",
+        "hash": "sha512-rRA/dIA09/Y6+jtGGBnXHQfPOv6BYYVZwQP8OzQtWrWbSgDEI6uAhqULssU5f0ZhQJVzKDuslqGE9QAX0gdfRQ=="
+      }
+    },
+    "npm:@apollo/experimental-nextjs-app-support": {
+      "type": "npm",
+      "name": "npm:@apollo/experimental-nextjs-app-support",
+      "data": {
+        "version": "0.11.2",
+        "packageName": "@apollo/experimental-nextjs-app-support",
+        "hash": "sha512-HRQ8/Ux/tM2pezrhZeoHsJs55+nJvJZRV1B21QwEVtWhslQXjT5gqs5nKw86KURF0xR7gX18Nyy659NzJ09Pmw=="
+      }
+    },
     "npm:@apollo/protobufjs": {
       "type": "npm",
       "name": "npm:@apollo/protobufjs",
@@ -5342,6 +5360,15 @@
         "hash": "sha512-5L4fseVRUsDFGR00tMWD/Trdeeihn999rTMGRMC1G/Ldi1uWlWJzI98H4Iak5DB/RVvQuyMYKqSK/R6mbSOQyg=="
       }
     },
+    "npm:@octokit/endpoint@10.1.1": {
+      "type": "npm",
+      "name": "npm:@octokit/endpoint@10.1.1",
+      "data": {
+        "version": "10.1.1",
+        "packageName": "@octokit/endpoint",
+        "hash": "sha512-JYjh5rMOwXMJyUpj028cu0Gbp7qe/ihxfJMLc8VZBMMqSwLgOxDI1911gV4Enl1QSavAQNJcwmwBF9M0VvLh6Q=="
+      }
+    },
     "npm:is-plain-object@5.0.0": {
       "type": "npm",
       "name": "npm:is-plain-object@5.0.0",
@@ -5369,6 +5396,15 @@
         "hash": "sha512-Fxyxdy/JH0MnIB5h+UQ3yCoh1FG4kWXfFKkpWqjZHw/p+Kc8Y44Hu/kCgNBT6nU1shNumEchmW/sUO1JuQnPcw=="
       }
     },
+    "npm:@octokit/graphql@8.1.1": {
+      "type": "npm",
+      "name": "npm:@octokit/graphql@8.1.1",
+      "data": {
+        "version": "8.1.1",
+        "packageName": "@octokit/graphql",
+        "hash": "sha512-ukiRmuHTi6ebQx/HFRCXKbDlOh/7xEV6QUXaE7MJEKGNAncGI/STSbOkl12qVXZrfZdpXctx5O9X1AIaebiDBg=="
+      }
+    },
     "npm:@octokit/openapi-types": {
       "type": "npm",
       "name": "npm:@octokit/openapi-types",
@@ -5376,6 +5412,15 @@
         "version": "18.1.1",
         "packageName": "@octokit/openapi-types",
         "hash": "sha512-VRaeH8nCDtF5aXWnjPuEMIYf1itK/s3JYyJcWFJT8X9pSNnBtriDf7wlEWsGuhPLl4QIH4xM8fqTXDwJ3Mu6sw=="
+      }
+    },
+    "npm:@octokit/openapi-types@22.2.0": {
+      "type": "npm",
+      "name": "npm:@octokit/openapi-types@22.2.0",
+      "data": {
+        "version": "22.2.0",
+        "packageName": "@octokit/openapi-types",
+        "hash": "sha512-QBhVjcUa9W7Wwhm6DBFu6ZZ+1/t/oYxqc2tp81Pi41YNuJinbFRx8B133qVOrAaBbF7D/m0Et6f9/pZt9Rc+tg=="
       }
     },
     "npm:@octokit/plugin-enterprise-rest": {
@@ -5432,6 +5477,15 @@
         "hash": "sha512-D4iHGTdAnEEVsB8fl95m1hiz7D5YiRdQ9b/OEb3BYRVwbLsGHcRVPz+u+BgRLNk0Q0/4iZCBqDN96j2XNxfXrA=="
       }
     },
+    "npm:@octokit/types@13.5.0": {
+      "type": "npm",
+      "name": "npm:@octokit/types@13.5.0",
+      "data": {
+        "version": "13.5.0",
+        "packageName": "@octokit/types",
+        "hash": "sha512-HdqWTf5Z3qwDVlzCrP8UJquMwunpDiMPt5er+QjGzL4hqr/vBVY/MauQgS1xWxCDT1oMx1EULyqxncdCY/NVSQ=="
+      }
+    },
     "npm:@octokit/request": {
       "type": "npm",
       "name": "npm:@octokit/request",
@@ -5441,6 +5495,15 @@
         "hash": "sha512-ow4+pkVQ+6XVVsekSYBzJC0VTVvh/FCTUUgTsboGq+DTeWdyIFV8WSCdo0RIxk6wSkBTHqIK1mYuY7nOBXOchw=="
       }
     },
+    "npm:@octokit/request@9.1.2": {
+      "type": "npm",
+      "name": "npm:@octokit/request@9.1.2",
+      "data": {
+        "version": "9.1.2",
+        "packageName": "@octokit/request",
+        "hash": "sha512-ZWRYo7KfV8qc0tW6GmKKYVCmslauxU1wRDJIKdz/DpA5c2pgBScquCiBBD8D0LKa351pLYezWgnwhu/svwzAJg=="
+      }
+    },
     "npm:@octokit/request-error": {
       "type": "npm",
       "name": "npm:@octokit/request-error",
@@ -5448,6 +5511,15 @@
         "version": "3.0.3",
         "packageName": "@octokit/request-error",
         "hash": "sha512-crqw3V5Iy2uOU5Np+8M/YexTlT8zxCfI+qu+LxUB7SZpje4Qmx3mub5DfEKSO8Ylyk0aogi6TYdf6kxzh2BguQ=="
+      }
+    },
+    "npm:@octokit/request-error@6.1.4": {
+      "type": "npm",
+      "name": "npm:@octokit/request-error@6.1.4",
+      "data": {
+        "version": "6.1.4",
+        "packageName": "@octokit/request-error",
+        "hash": "sha512-VpAhIUxwhWZQImo/dWAN/NpPqqojR6PSLgLYAituLM6U+ddx9hCioFGwBr5Mi+oi5CLeJkcAs3gJ0PYYzU6wUg=="
       }
     },
     "npm:@octokit/rest": {
@@ -16736,6 +16808,15 @@
         "hash": "sha512-yCzhz6FN2wU1NiiQRogkTQszlQSlpWaw8SvVegAc+bDxbzHgh1vX8uIe8OYyMH6DwH+sdTJsgMl36+mSMdRJIQ=="
       }
     },
+    "npm:universal-user-agent@7.0.2": {
+      "type": "npm",
+      "name": "npm:universal-user-agent@7.0.2",
+      "data": {
+        "version": "7.0.2",
+        "packageName": "universal-user-agent",
+        "hash": "sha512-0JCqzSKnStlRRQfCdowvqy3cy0Dvtlb8xecj/H8JFZuCze4rwjPZQOgvFvn0Ws/usCHQFGpyr+pB9adaGwXn4Q=="
+      }
+    },
     "npm:unpipe": {
       "type": "npm",
       "name": "npm:unpipe",
@@ -17392,6 +17473,11 @@
       },
       {
         "source": "apex-web",
+        "target": "npm:@apollo/experimental-nextjs-app-support",
+        "type": "static"
+      },
+      {
+        "source": "apex-web",
         "target": "npm:@apollo/server",
         "type": "static"
       },
@@ -17403,6 +17489,11 @@
       {
         "source": "apex-web",
         "target": "npm:@as-integrations/next",
+        "type": "static"
+      },
+      {
+        "source": "apex-web",
+        "target": "npm:@octokit/graphql@8.1.1",
         "type": "static"
       },
       {
@@ -17664,6 +17755,45 @@
       {
         "source": "npm:@apollo/client",
         "target": "npm:zen-observable-ts",
+        "type": "static"
+      }
+    ],
+    "npm:@apollo/client-react-streaming": [
+      {
+        "source": "npm:@apollo/client-react-streaming",
+        "target": "npm:@apollo/client",
+        "type": "static"
+      },
+      {
+        "source": "npm:@apollo/client-react-streaming",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@apollo/client-react-streaming",
+        "target": "npm:ts-invariant",
+        "type": "static"
+      }
+    ],
+    "npm:@apollo/experimental-nextjs-app-support": [
+      {
+        "source": "npm:@apollo/experimental-nextjs-app-support",
+        "target": "npm:@apollo/client",
+        "type": "static"
+      },
+      {
+        "source": "npm:@apollo/experimental-nextjs-app-support",
+        "target": "npm:next",
+        "type": "static"
+      },
+      {
+        "source": "npm:@apollo/experimental-nextjs-app-support",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:@apollo/experimental-nextjs-app-support",
+        "target": "npm:@apollo/client-react-streaming",
         "type": "static"
       }
     ],
@@ -41088,6 +41218,71 @@
       {
         "source": "npm:scheduler@0.24.0-canary-efb381bbf-20230505",
         "target": "npm:loose-envify",
+        "type": "static"
+      }
+    ],
+    "npm:@octokit/endpoint@10.1.1": [
+      {
+        "source": "npm:@octokit/endpoint@10.1.1",
+        "target": "npm:@octokit/types@13.5.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@octokit/endpoint@10.1.1",
+        "target": "npm:universal-user-agent@7.0.2",
+        "type": "static"
+      }
+    ],
+    "npm:@octokit/graphql@8.1.1": [
+      {
+        "source": "npm:@octokit/graphql@8.1.1",
+        "target": "npm:@octokit/request@9.1.2",
+        "type": "static"
+      },
+      {
+        "source": "npm:@octokit/graphql@8.1.1",
+        "target": "npm:@octokit/types@13.5.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@octokit/graphql@8.1.1",
+        "target": "npm:universal-user-agent@7.0.2",
+        "type": "static"
+      }
+    ],
+    "npm:@octokit/request@9.1.2": [
+      {
+        "source": "npm:@octokit/request@9.1.2",
+        "target": "npm:@octokit/endpoint@10.1.1",
+        "type": "static"
+      },
+      {
+        "source": "npm:@octokit/request@9.1.2",
+        "target": "npm:@octokit/request-error@6.1.4",
+        "type": "static"
+      },
+      {
+        "source": "npm:@octokit/request@9.1.2",
+        "target": "npm:@octokit/types@13.5.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@octokit/request@9.1.2",
+        "target": "npm:universal-user-agent@7.0.2",
+        "type": "static"
+      }
+    ],
+    "npm:@octokit/request-error@6.1.4": [
+      {
+        "source": "npm:@octokit/request-error@6.1.4",
+        "target": "npm:@octokit/types@13.5.0",
+        "type": "static"
+      }
+    ],
+    "npm:@octokit/types@13.5.0": [
+      {
+        "source": "npm:@octokit/types@13.5.0",
+        "target": "npm:@octokit/openapi-types@22.2.0",
         "type": "static"
       }
     ]
