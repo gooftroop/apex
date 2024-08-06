@@ -11,15 +11,8 @@
     "description": "Warhammer 40K battle and crusade mobile application",
     "devDependencies": {
         "@babel/core": "^7.20.0",
-        "@types/react": "~18.2.45",
-        "lint-staged": "^15.2.5",
-        "typescript": "^5.1.3"
+        "@types/react": "~18.2.45"
     },
-    "engines": {
-        "node": ">=22.0.0",
-        "npm": ">=10.0.0"
-    },
-    "engineStrict": true,
     "keywords": [
         "react",
         "native",

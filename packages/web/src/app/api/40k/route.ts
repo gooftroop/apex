@@ -6,8 +6,8 @@ import { allowCorsApolloPlugin } from '@/lib/allowCors';
 import { resolvers } from '@/app/api/40k/resolvers';
 import responseCachePlugin from '@apollo/server-plugin-response-cache';
 import typeDefs from '@/app/api/40k/typeDefs.graphql';
-import { GithubDataSource } from '@/lib/graphql/datasource/github';
-import { Context } from '@/lib/graphql/types';
+import { GithubDataSource } from '@apex/lib/graphql/datasource/github';
+import { Context } from '@apex/lib/graphql/types';
 
 const loggingPlugin: ApolloServerPlugin<Context> = {
     requestDidStart: (

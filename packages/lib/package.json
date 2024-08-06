@@ -13,7 +13,7 @@
     "lint-staged": {
         "**/*.(t|j)s(x)?": "npm run format"
     },
-    "name": "apex-lib",
+    "name": "@apex/lib",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -26,7 +26,11 @@
     },
     "type": "module",
     "version": "0.0.1",
-    "devDependencies": {
-        "lint-staged": "^15.2.5"
+    "dependencies": {
+        "@apollo/client": "^3.11.1",
+        "@apollo/experimental-nextjs-app-support": "^0.11.2",
+        "@octokit/graphql": "^8.1.1",
+        "@octokit/graphql-schema": "^15.25.0",
+        "fast-xml-parser": "^4.4.0"
     }
 }

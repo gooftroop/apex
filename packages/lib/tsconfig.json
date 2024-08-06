@@ -10,7 +10,11 @@
         "moduleResolution": "Bundler",
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "incremental": true
+        "incremental": true,
+        "target": "ES2022",
+        "paths": {
+            "@/*": ["./*"]
+        }
     },
     "exclude": ["node_modules"]
 }

@@ -12,6 +12,7 @@ export default tseslint.config(
                 ...globals.node,
             },
         },
+        ignores: ['**/build/**', '**/dist/**', '**/node_modules/**', '**/.next/**'],
     },
     eslint.configs.recommended,
     ...neon.map((config) => ({
@@ -24,7 +25,6 @@ export default tseslint.config(
     })),
     {
         files: ['**/*.ts'],
-        ignores: ['**/build/**', '**/dist/**', '**/node_modules/**', '**/.next/**'],
         plugins: {
             '@typescript-eslint': tsplugin,
         },
